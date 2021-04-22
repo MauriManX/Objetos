@@ -26,12 +26,12 @@ public class Operadores {
     
     //Operador de Pre-decremento
     //d=d-1 entonces c=d
-    c=-d;
+    c=--d;
     System.out.println("Valor de c(-d)= "+c);
     
     //Operador de postdecremento
     //c=e entonces e=e-1 (e toma el valor de 39)
-    c=-e;
+    c=e-1;
     System.out.println("Valor de c(e-)= "+c);
     
     //Operador logico not
