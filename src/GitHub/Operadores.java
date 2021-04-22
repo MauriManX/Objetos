@@ -21,6 +21,7 @@ public class Operadores {
     
     //Operador de post-incremento (b toma el valor 11
     //c=b entonces b=b+1
+    c=b+1;
     System.out.println("Valor de C (b++)= "+c);
     
     //Operador de Pre-decremento
