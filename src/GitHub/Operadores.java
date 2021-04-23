@@ -16,23 +16,23 @@ public class Operadores {
     //operador pre-incremento
     //a=a+1 entoces c=a
     
-    c=++a;
+    c= ++a;
     System.out.println("Valor de C(++a)= "+c );
     
     //Operador de post-incremento (b toma el valor 11
     //c=b entonces b=b+1
-    c=b+1;
-    System.out.println("Valor de C (b++)= "+c);
+    c= b++;
+    System.out.println("Valor de C (b++)= "+b);
     
     //Operador de Pre-decremento
     //d=d-1 entonces c=d
-    c=--d;
+    c= --d;
     System.out.println("Valor de c(-d)= "+c);
     
     //Operador de postdecremento
     //c=e entonces e=e-1 (e toma el valor de 39)
-    c=e-1;
-    System.out.println("Valor de c(e-)= "+c);
+    c= e--;
+    System.out.println("Valor de c(e-)= "+e);
     
     //Operador logico not
     System.out.println("Valor de !condition= "+ !condition);
